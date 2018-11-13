@@ -1,0 +1,4 @@
+# docker ps -aq -- get only -a all -q id of conteiners
+# docker rm -f -- remove -f force conteiners
+
+docker rm -f $(docker ps -aq)

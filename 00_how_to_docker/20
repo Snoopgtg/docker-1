@@ -1,0 +1,5 @@
+#if Char is active machine
+docker swarm init --advertise-addr $(docker-machine ip Char)
+
+#if Char is non active machine
+docker-machine ssh Char "docker swarm init --advertise-addr $(docker-machine ip Char)"

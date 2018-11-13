@@ -1,0 +1,6 @@
+#connect to Aiur -- docker-machine ssh Aiur
+#get comand and token for join worker to swarm -- docker swarm join-token worker
+#get olny 3-5 row sed -n 3,5p
+#run getting command on Aiur "$(docker swarm join-token worker | sed -n 3,5p)"
+
+docker-machine ssh Aiur "$(docker swarm join-token worker | sed -n 3,5p)"

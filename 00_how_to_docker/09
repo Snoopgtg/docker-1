@@ -1,0 +1,16 @@
+#update all packages
+apt-get update
+
+#install c/c++ compiler
+apt-get install build-essential
+
+#install man pages
+apt-get install man-db
+
+apt-get install emacs
+
+#install git 
+apt-get install git
+
+apt-get update
+exit

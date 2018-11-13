@@ -1,0 +1,6 @@
+#docker service logs -f in real time
+#docker service ps engineering-bay -f formating outpoot
+#"name=engineering-bay" -q output only all id from task
+#awk '(NR == 1)') output first line from all task
+
+docker service logs -f $(docker service ps engineering-bay -f "name=engineering-bay" -q | awk '(NR == 1)')

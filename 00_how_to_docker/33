@@ -1,0 +1,4 @@
+#docker rmi -f --force delete image
+#$(docker image ls -q) -- list of image ids
+
+docker rmi -f $(docker image ls -q)
