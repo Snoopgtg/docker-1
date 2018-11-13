@@ -85,7 +85,7 @@ its /root folder will be bound to a HOME folder on your host, and its 3000 port
 will be bound to the 3000 port of your virtual machine.
 You will personalize this container so that you can use the Flask micro-framework
 in its latest version. You will make sure that an html page displaying "Hello World"
-with <h1> tags can be served by Flask. You will test that your container is
+with `<h1>` tags can be served by Flask. You will test that your container is
 properly set up by accessing, via curl or a web browser, the IP address of your
 virtual machine on the 3000 port.
 You will also list all the necessary commands in your repository.
