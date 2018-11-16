@@ -150,3 +150,10 @@ as well.
 34. Delete the Aiur virtual machine without using rm -rf.
 <a href="https://github.com/Snoopgtg/docker-1/blob/master/00_how_to_docker/34" target="blank">34</a>
 
+
+## Dockerfiles
+
+### Exercise 00: vim/emacs
+
+  From an alpine image you’ll add to your container your favorite text editor, vim or
+emacs, that will launch along with your container.
