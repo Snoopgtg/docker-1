@@ -157,3 +157,12 @@ as well.
 
   From an alpine image you’ll add to your container your favorite text editor, vim or
 emacs, that will launch along with your container.
+<a href="https://github.com/Snoopgtg/docker-1/blob/master/01_dockerfiles/ex00/Dockerfile" target="blank">00</a>
+
+### Exercise 01: BYOTSS
+  From a debian image you will add the appropriate sources to create a TeamSpeak
+server, that will launch along with your container. It will be deemed valid if at least
+one user can connect to it and engage in a normal discussion (no far-fetched setup), so
+be sure to create your Dockerfile with the right options. Your program should get the
+sources when it builds, they cannot be in your repository.
+<a href="https://github.com/Snoopgtg/docker-1/blob/master/01_dockerfiles/ex01/Dockerfile" target="blank">01</a>
